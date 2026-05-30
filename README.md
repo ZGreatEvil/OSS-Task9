@@ -75,6 +75,16 @@ python wdbc_classification.py
 
 ---
 
+## Output Images
+
+### Scatter Plot
+![Scatter Plot](wdbc_classification_scatter.png)
+
+### Confusion Matrix
+![Confusion Matrix](wdbc_classification_matrix.png)
+
+---
+
 ## Best Classifier Result
 | Classifier | Accuracy |
 |------------|----------|
