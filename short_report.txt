@@ -1,0 +1,34 @@
+WDBC Classification - Short Report
+====================================
+
+1. Which classifiers did you test?
+   Four classifiers were tested:
+   - SVM (Support Vector Machine)
+   - Decision Tree
+   - KNN (K-Nearest Neighbors)
+   - Random Forest
+
+2. Which classifier gave the best accuracy?
+   When Decision Tree and Random Forest were applied then both models gave an accuracy of 1.0(100%).
+   They were trained and evaluated with the same data set. As mentioned earlier, Decision Tree was chosen as
+   it was the first to achieve the top score, hence best classifier.
+   SVM scored 0.9227 and KNN scored 0.9473.
+
+3. What does the confusion matrix show?
+   The confusion matrix displays the numbers of samples that were correctly and incorrectly
+   classified for each class (malignant and benign). The numbers along the diagonal are
+   correct predictions (true positives and true negatives). Off-diagonal values
+   reflect misclassifications (false positives and false negatives).
+
+4. Was the model good at predicting both classes?
+   Yes. The best classifier (Decision Tree) predicted all 212 malignant and all
+   357 non-cancer samples were correctly classified; 99% accuracy when tested on the training set. Even the
+   default SVM had a precision of 0.9023 and a recall of 0.9832 and showed
+   excellent results in both classes.
+
+5. Why is documentation important in an open-source ML project?
+   Documentation is used to assist other developers in understanding the project and how to use it.
+   run it, and what results to expect. Without README, requirements file, and
+   according to the report, it would be hard to copy or expand on the work.
+   As in open-source projects, it is significant to provide clear documentation as well for trust,
+   cooperation, and long-term maintenance.
