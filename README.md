@@ -36,7 +36,7 @@ The data comes from the built-in scikit-learn dataset (datasets.load_breast_canc
 
 ## Environment
 This project used:
-- Google Colab (recommended)
+- Visual Studio Code (recommended)
 
 ---
 
